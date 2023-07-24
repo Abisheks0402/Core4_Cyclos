@@ -5,7 +5,7 @@ Feature: Account information of Cyclos Web Application
 	
 	Scenario: Banking Functioality of Cyclos Application
 		Given User login into Cyclos
-		Then User should click on banking1
+		Then User should click on banking
 		And check the memberAccount
 		
 	
@@ -16,13 +16,13 @@ Feature: Account information of Cyclos Web Application
 		
 	
 	Scenario: user should check the payment history
-		Given User click on banking menu2
+		Given User click on banking menu
 		When click on notifications
 		Then able to see payment history
 		
 	
 	Scenario: print and export payments 
-		Given user able click on banking menu3
+		Given user able click on banking menu
 		Then should click payment to users
 		Then select one user from userlist and select a user
 		And Enter amount
@@ -33,7 +33,7 @@ Feature: Account information of Cyclos Web Application
 	
 
 	Scenario: Searching the payments
-		Given User Should click on Banking Menu4
+		Given User Should click on Banking Menu
 		And click the showfilter button
 		And select a user from userlist
 		Then click on period menu and select any opton
@@ -48,13 +48,13 @@ Feature: Account information of Cyclos Web Application
 	
 
 	Scenario: view payment details
-		Given should be able to click on banking menu5
+		Given should be able to click on banking menu
 		When click a user from Account summary
 		Then payment details should be display
 		
 
 	Scenario: payment details should be print
-		Given user able to click banking menu6
+		Given user able to click banking menu
 		When click any user from 	account summary
 		Then print the transferDetails
 		
