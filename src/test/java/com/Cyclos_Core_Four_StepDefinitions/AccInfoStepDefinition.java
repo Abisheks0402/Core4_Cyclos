@@ -10,6 +10,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import com.Cyclos_Core_Four_StepDefinitions.*;
+import com.Repo.AccInfoRepo;
 
 public class AccInfoStepDefinition {
 	public static WebDriver driver;
